@@ -1,0 +1,155 @@
+<html>
+
+<head> 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="https://api.trello.com/1/client.js?key=4e1be9ba84b16573428e1bdad0d89772"></script>
+</head>
+
+<body>
+  <div class="container">
+    <p>Showing passoff for <span id="trelloName"></span></p>
+    <button id="cpButton">COPY &amp; CLOSE</button>
+    <!-- DIRECTIVES FOR EACH DELIVERABLE -->
+    <div id="showEmail" style="display:none">
+      <p><br>
+      ---<br>
+      <br>
+      Hi there,<br>
+      <br>
+      We are finished building your development asset!<br>
+      <br>
+      Your development asset preview can be found here:<br>
+      <br>
+      <span class="previewLink"></span><br>
+      <br>
+      Your development asset can be found here:<br>
+      <br>
+      <span class="passoffLink"></span><br>
+      <br>
+      If you have any concerns about this development asset, please contact glabarre@caleres.com.<br>
+      <br>
+      Project reference link:<br>
+      <br>
+      <span class="trelloLink"></span><br>
+      <br>
+      Thank you!<br>
+      <br>
+      - Your Web Development Team<br>
+      <br>
+      ---</p>
+    </div>
+
+    <div id="showStg" style="display:none">
+      <p><br>
+      ---<br>
+      <br>
+      Hi there,<br>
+      <br>
+      We are finished building your development asset!<br>
+      <br>
+      Your development asset preview can be found here:<br>
+      <br>
+      <span class="previewLink"></span><br>
+      <br>
+      Your development asset can be found here:<br>
+      <br>
+      <span class="passoffLink"></span><br>
+      <br>
+      Your development asset can be promoted here:<br>
+      <br>
+      <span class="adminUrl"></span><br>
+      <br>
+      If you have any concerns about this development asset, please contact glabarre@caleres.com.<br>
+      <br>
+      Project reference link:<br>
+      <br>
+      <span class="trelloLink"></span><br>
+      <br>
+      Thank you!<br>
+      <br>
+      - Your Web Development Team<br>
+      <br>
+      ---</p>
+    </div>
+    
+    <div id="showMon" style="display:none">
+      <p><br>
+      ---<br>
+      <br>
+      Hi there,<br>
+      <br>
+      We are finished building your development asset!<br>
+      <br>
+      Your development asset can be found here:<br>
+      <br>
+      <span class="monLink"></span><br>
+      <br>
+      If you have any concerns about this development asset, please contact glabarre@caleres.com.<br>
+      <br>
+      Project reference link:<br>
+      <br>
+      <span class="trelloLink"></span><br>
+      <br>
+      Thank you!<br>
+      <br>
+      - Your Web Development Team<br>
+      <br>
+      ---</p>
+    </div>
+
+    <div id="showLogo" style="display:none">
+      <p><br>
+      ---<br>
+      <br>
+      Hi there,<br>
+      <br>
+      We are finished promoting this logo to production!<br>
+      <br>
+      {{Insert Link to Results/PDP}}<br>
+      <br>
+      If you have any concerns about this development asset, please contact glabarre@caleres.com.<br>
+      <br>
+      Project reference link:<br>
+      <br>
+      <span class="trelloLink"></span><br>
+      <br>
+      Thank you!<br>
+      <br>
+      - Your Web Development Team<br>
+      <br>
+      ---</p>
+    </div>
+
+    <div id="showDefault" style="display:block">
+      <p><br>
+      ---<br>
+      <br>
+      Hi there,<br>
+      <br>
+      We are finished building your development asset!<br>
+      <br>
+      Your development asset preview can be found here:<br>
+      <br>
+      {{Preview Link}}<br>
+      <br>
+      Your development asset can be found here:<br>
+      <br>
+      {{Passoff Link}}<br>
+      <br>
+      If you have any concerns about this development asset, please contact glabarre@caleres.com.<br>
+      <br>
+      Project reference link:<br>
+      <br>
+      <span class="trelloLink"></span><br>
+      <br>
+      Thank you!<br>
+      <br>
+      - Your Web Development Team<br>
+      <br>
+      ---</p>
+    </div>
+  </div> <!--CONTAINER END -->
+  <script type="text/javascript" src="/tools/bookmarklets/trelloBM/scripts/dist/main.js"></script>
+</body>
+
+</html>

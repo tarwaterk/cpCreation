@@ -44,7 +44,7 @@ if(window.location.hostname === "codepen.io") {
       error: authenticationFailure
     });
     
-    Trello.post("/cards/"+trelloSlug+"/actions/comments", {"text":"CODEPEN: https://codepen.io/team/bwswebdev/pen/"+codepenId+"?editors=1000"}, function() {console.log("Comment creation successful");})
+    Trello.post("/cards/"+trelloSlug+"/actions/comments", {"text":"ID: "+codepenId+"\nCODEPEN: https://codepen.io/team/bwswebdev/pen/"+codepenId+"?editors=1000"}, function() {console.log("Comment creation successful");})
           .then(successfulPost, failedPost);
   };
 
